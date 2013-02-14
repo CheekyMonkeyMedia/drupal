@@ -26,7 +26,7 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
   
-; Drupal 7.x. Requires the `core` property to be set to 7.x.
+; Drupal 7.x. Requires the `core` property to be set to 7.x
 projects[drupal][version] = 7.x.
 
   
@@ -125,13 +125,11 @@ projects[mollom][type] = "module"
 projects[mollom][subdir] = "contrib"
 projects[mothership][version] = 2.8
 projects[mothership][type] = "module"
-projects[mothership][subdir] = "contrib"
 projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][type] = "module"
 projects[nodequeue][subdir] = "contrib"
 projects[omega][version] = 3.1
 projects[omega][type] = "module"
-projects[omega][subdir] = "contrib"
 projects[pathauto][version] = 1.2
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
@@ -140,7 +138,6 @@ projects[references][type] = "module"
 projects[references][subdir] = "contrib"
 projects[rubik][version] = 4.0-beta8
 projects[rubik][type] = "module"
-projects[rubik][subdir] = "contrib"
 projects[scheduler][version] = 1.0
 projects[scheduler][type] = "module"
 projects[scheduler][subdir] = "contrib"
@@ -155,7 +152,6 @@ projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
 projects[tao][version] = 3.0-beta4
 projects[tao][type] = "module"
-projects[tao][subdir] = "contrib"
 projects[token][version] = 1.4
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
@@ -201,6 +197,7 @@ projects[media][subdir] = contrib
 projects[media_colorbox][subdir] = contrib
 projects[special_menu_items][subdir] = contrib
 projects[workbench][subdir] = contrib
+projects[coffee][sudir] = contrib
 
   
 
