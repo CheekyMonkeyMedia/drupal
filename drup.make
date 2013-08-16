@@ -128,8 +128,6 @@ projects[mothership][type] = "module"
 projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][type] = "module"
 projects[nodequeue][subdir] = "contrib"
-projects[omega][version] = 3.1
-projects[omega][type] = "module"
 projects[pathauto][version] = 1.2
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
@@ -197,13 +195,15 @@ projects[media][subdir] = contrib
 projects[media_colorbox][subdir] = contrib
 projects[special_menu_items][subdir] = contrib
 projects[workbench][subdir] = contrib
-projects[coffee][sudir] = contrib
+projects[coffee][subdir] = contrib
+projects[styleguide][subdir] = contrib
 
   
 
 ; Themes
 ; --------
 projects[] = zurb-foundation
+projects[] = omega
 
   
   
