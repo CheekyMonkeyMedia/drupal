@@ -186,17 +186,18 @@ projects[webform][subdir] = "contrib"
 projects[xmlsitemap][version] = 2.0-rc2
 projects[xmlsitemap][type] = "module"
 projects[xmlsitemap][subdir] = "contrib"
-projects[block_class][subdir] = contrib
-projects[fontyourface][subdir] = contrib
-projects[colorbox][subdir] = contrib
-projects[delta][subdir] = contrib
-projects[flexslider][subdir] = contrib
-projects[media][subdir] = contrib
-projects[media_colorbox][subdir] = contrib
-projects[special_menu_items][subdir] = contrib
-projects[workbench][subdir] = contrib
-projects[coffee][subdir] = contrib
-projects[styleguide][subdir] = contrib
+projects[block_class][subdir] = "contrib"
+projects[fontyourface][subdir] = "contrib"
+projects[colorbox][subdir] = "contrib"
+projects[delta][subdir] = "contrib"
+projects[flexslider][subdir] = "contrib"
+projects[media][subdir] = "contrib"
+projects[media_colorbox][subdir] = "contrib"
+projects[special_menu_items][subdir] = "contrib"
+projects[workbench][subdir] = "contrib"
+projects[coffee][subdir] = "contrib"
+projects[styleguide][subdir] = "contrib"
+projects[browserclass][subdir] = "contrib"
 
   
 
