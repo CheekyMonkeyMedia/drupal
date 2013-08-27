@@ -26,8 +26,9 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
   
-; Drupal 7.x. Requires the `core` property to be set to 7.x
-projects[drupal][version] = 7.x.
+; Use Spark distribution instead of Drupal core:
+projects[spark][version] = 7.x-1.0-alpha9
+projects[spark][type] = "core"
 
   
   
