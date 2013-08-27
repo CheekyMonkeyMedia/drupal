@@ -27,8 +27,8 @@ api = 2
 ; install profiles *should not* include a core project.
   
 ; Use Spark distribution instead of Drupal core:
-projects[spark][version] = 7.x-1.0-alpha9
-projects[spark][type] = "core"
+projects[drupal][version] = 7
+projects[spark][version] = 7 
 
   
   
@@ -40,12 +40,6 @@ projects[admin][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][type] = "module"
 projects[admin_menu][subdir] = "contrib"
-projects[module_filter][version] = 1.7
-projects[module_filter][type] = "module"
-projects[module_filter][subdir] = "contrib"
-projects[ctools][version] = 1.2
-projects[ctools][type] = "module"
-projects[ctools][subdir] = "contrib"
 projects[context][version] = 3.0-beta6
 projects[context][type] = "module"
 projects[context][subdir] = "contrib"
@@ -85,9 +79,6 @@ projects[context_admin][subdir] = "contrib"
 projects[ds][version] = 2.0
 projects[ds][type] = "module"
 projects[ds][subdir] = "contrib"
-projects[entity][version] = 1.0
-projects[entity][type] = "module"
-projects[entity][subdir] = "contrib"
 projects[entityreference][version] = 1.0
 projects[entityreference][type] = "module"
 projects[entityreference][subdir] = "contrib"
@@ -135,8 +126,6 @@ projects[pathauto][subdir] = "contrib"
 projects[references][version] = 2.1
 projects[references][type] = "module"
 projects[references][subdir] = "contrib"
-projects[rubik][version] = 4.0-beta8
-projects[rubik][type] = "module"
 projects[scheduler][version] = 1.0
 projects[scheduler][type] = "module"
 projects[scheduler][subdir] = "contrib"
@@ -149,14 +138,9 @@ projects[site_map][subdir] = "contrib"
 projects[strongarm][version] = 2.0
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
-projects[tao][version] = 3.0-beta4
-projects[tao][type] = "module"
 projects[token][version] = 1.4
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
-projects[panels][version] = 3.3
-projects[panels][type] = "module"
-projects[panels][subdir] = "contrib"
 projects[rules][version] = 2.2
 projects[rules][type] = "module"
 projects[rules][subdir] = "contrib"
@@ -166,15 +150,9 @@ projects[page_title][subdir] = "contrib"
 projects[imce_wysiwyg][version] = 1.0
 projects[imce_wysiwyg][type] = "module"
 projects[imce_wysiwyg][subdir] = "contrib"
-projects[jquery_update][version] = 2.3
-projects[jquery_update][type] = "module"
-projects[jquery_update][subdir] = "contrib"
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg][type] = "module"
 projects[wysiwyg][subdir] = "contrib"
-projects[views][version] = 3.5
-projects[views][type] = "module"
-projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = 3.1
 projects[views_bulk_operations][type] = "module"
 projects[views_bulk_operations][subdir] = "contrib"
@@ -199,12 +177,13 @@ projects[workbench][subdir] = "contrib"
 projects[coffee][subdir] = "contrib"
 projects[styleguide][subdir] = "contrib"
 projects[browserclass][subdir] = "contrib"
+projects[fences][subdir] = "contrib"
 
   
 
 ; Themes
 ; --------
-projects[] = zurb-foundation
+projects[zurb-foundation][version] = 7.4
 projects[] = omega
 
   
