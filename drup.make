@@ -177,7 +177,7 @@ projects[coffee][subdir] = "contrib"
 projects[styleguide][subdir] = "contrib"
 projects[browserclass][subdir] = "contrib"
 projects[fences][subdir] = "contrib"
-
+projects[admin_views][subdir] = "contrib"
   
 
 ; Themes
